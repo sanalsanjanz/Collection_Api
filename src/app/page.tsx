@@ -7,12 +7,12 @@ export default function CollectionHome() {
       {/* Header */}
       <header className="w-full flex justify-between items-center px-8 py-6 border-b border-gray-200 dark:border-gray-800">
         <div className="flex items-center gap-2">
-          <Image
+          {/*  <Image
             src="/logo.svg"
             alt="Collection Home Logo"
             width={40}
             height={40}
-          />
+          /> */}
           <span className="text-xl font-bold text-gray-900 dark:text-gray-100">
             Collection Home
           </span>
@@ -41,7 +41,7 @@ export default function CollectionHome() {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <a
-            href="/api/unpaid"
+            /*   href="/api/unpaid" */
             className="px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
           >
             View Unpaid Members
@@ -89,8 +89,8 @@ export default function CollectionHome() {
           © {new Date().getFullYear()} Collection Home API — Built with Next.js
         </p>
         <p className="mt-2">
-          <a href="mailto:support@example.com" className="hover:underline">
-            support@example.com
+          <a href="mailto:mail@legozia.com" className="hover:underline">
+            support@legozia.com
           </a>
         </p>
       </footer>
