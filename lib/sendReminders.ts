@@ -1,6 +1,6 @@
 import admin from 'firebase-admin';
 import { createClient } from '@supabase/supabase-js';
-import { format } from 'date-fns';
+// import { format } from 'date-fns';
 
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON!);
 admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
